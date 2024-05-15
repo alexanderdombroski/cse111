@@ -1,0 +1,27 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+
+In my csv to json conversion project, I built a gui that had an input and output text 
+field. I wanted to make both of these scrollable, and apply other settings. Doing it
+twice would've added quite a bit of copy paste to my code, and I wanted to condence it down.
+I found out I could pass in tkinter objects into a parameter, and I was able to reuse part 
+of my code by containing it in a function.
+
+2. In your judgment, what is the value of test functions?
+
+Test functions and pytest can simplify the testing process. Sometimes print statements 
+and the debugger are the best way to test, but some process functions are used in many 
+situations and require many input/output comparisons. These provide the best value to 
+function testing. Testing by function allows for these comparisons, and can make it 
+really easy to target a specific part of the program.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+Over the course of my project, I've moved many of my functions to sparate files 
+to make it easy to test and edit parts of the program. The debugger has come in handy
+a couple times. One thing I can do to improve my testing process is looking from the
+perspective of the user, and try to see what kinds of unexected input can pop up.
